@@ -1,8 +1,10 @@
-from typing import list 
+from ast import Expression
+
+from numpy import iterable
 
 class Solution:
 
-    def fizzBuzz(self, n: int) -> List[str]:
+    def fizzBuzz(self, n: int) -> list[str]: 
         # ans list
         ans = []
 
